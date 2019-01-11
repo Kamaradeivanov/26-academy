@@ -4,4 +4,4 @@ ADD _version.py
 ADD requirements.txt
 RUN pip install -r requirements.txt
 CMD python __main__.py -H 0.0.0.0
-docker build -t python-barcode .
+
